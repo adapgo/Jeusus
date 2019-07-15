@@ -1,0 +1,4 @@
+#Mon Jul 15 15:30:23 IST 2019
+base.0=E\:\\Jeusus\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

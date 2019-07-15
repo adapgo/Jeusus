@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.adpog.jeusus"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\Jeusus\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\Jeusus\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\Jeusus\app\src\main\AndroidManifest.xml:5:5-20:19
+12        android:allowBackup="true"
+12-->E:\Jeusus\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\c9abde3d00d5c35e349279d839666d3e\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->E:\Jeusus\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->E:\Jeusus\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->E:\Jeusus\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->E:\Jeusus\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->E:\Jeusus\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.adpog.jeusus.MainActivity" />
+21-->E:\Jeusus\app\src\main\AndroidManifest.xml:12:9-59
+21-->E:\Jeusus\app\src\main\AndroidManifest.xml:12:19-47
+22        <activity android:name="com.adpog.jeusus.Ui.SplashView" >
+22-->E:\Jeusus\app\src\main\AndroidManifest.xml:13:9-19:20
+22-->E:\Jeusus\app\src\main\AndroidManifest.xml:13:19-48
+23            <intent-filter>
+23-->E:\Jeusus\app\src\main\AndroidManifest.xml:14:13-18:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->E:\Jeusus\app\src\main\AndroidManifest.xml:15:17-69
+24-->E:\Jeusus\app\src\main\AndroidManifest.xml:15:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->E:\Jeusus\app\src\main\AndroidManifest.xml:17:17-77
+26-->E:\Jeusus\app\src\main\AndroidManifest.xml:17:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity
+29-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\182a46ebb800e43ff43f2e561612f4cf\jetified-facebook-common-4.42.0\AndroidManifest.xml:29:9-32:66
+30            android:name="com.facebook.FacebookActivity"
+30-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\182a46ebb800e43ff43f2e561612f4cf\jetified-facebook-common-4.42.0\AndroidManifest.xml:30:13-57
+31            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+31-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\182a46ebb800e43ff43f2e561612f4cf\jetified-facebook-common-4.42.0\AndroidManifest.xml:31:13-96
+32            android:theme="@style/com_facebook_activity_theme" />
+32-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\182a46ebb800e43ff43f2e561612f4cf\jetified-facebook-common-4.42.0\AndroidManifest.xml:32:13-63
+33        <activity android:name="com.facebook.CustomTabMainActivity" />
+33-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\182a46ebb800e43ff43f2e561612f4cf\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:9-71
+33-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\182a46ebb800e43ff43f2e561612f4cf\jetified-facebook-common-4.42.0\AndroidManifest.xml:33:19-68
+34        <activity android:name="com.facebook.CustomTabActivity" />
+34-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\182a46ebb800e43ff43f2e561612f4cf\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:9-67
+34-->[com.facebook.android:facebook-common:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\182a46ebb800e43ff43f2e561612f4cf\jetified-facebook-common-4.42.0\AndroidManifest.xml:34:19-64
+35        <!--
+36         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+37         with the application context. This config is merged in with the host app's manifest,
+38         but there can only be one provider with the same authority activated at any given
+39         point; so if the end user has two or more different apps that use Facebook SDK, only the
+40         first one will be able to use the provider. To work around this problem, we use the
+41         following placeholder in the authority to identify each host application as if it was
+42         a completely different provider.
+43        -->
+44        <provider
+44-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\295746407fe296f5c0780a7226717709\jetified-facebook-core-4.42.0\AndroidManifest.xml:39:9-42:40
+45            android:name="com.facebook.internal.FacebookInitProvider"
+45-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\295746407fe296f5c0780a7226717709\jetified-facebook-core-4.42.0\AndroidManifest.xml:40:13-70
+46            android:authorities="com.adpog.jeusus.FacebookInitProvider"
+46-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\295746407fe296f5c0780a7226717709\jetified-facebook-core-4.42.0\AndroidManifest.xml:41:13-72
+47            android:exported="false" />
+47-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\295746407fe296f5c0780a7226717709\jetified-facebook-core-4.42.0\AndroidManifest.xml:42:13-37
+48
+49        <receiver
+49-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\295746407fe296f5c0780a7226717709\jetified-facebook-core-4.42.0\AndroidManifest.xml:44:9-50:20
+50            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+50-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\295746407fe296f5c0780a7226717709\jetified-facebook-core-4.42.0\AndroidManifest.xml:45:13-86
+51            android:exported="false" >
+51-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\295746407fe296f5c0780a7226717709\jetified-facebook-core-4.42.0\AndroidManifest.xml:46:13-37
+52            <intent-filter>
+52-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\295746407fe296f5c0780a7226717709\jetified-facebook-core-4.42.0\AndroidManifest.xml:47:13-49:29
+53                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+53-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\295746407fe296f5c0780a7226717709\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:17-95
+53-->[com.facebook.android:facebook-core:4.42.0] C:\Users\Ragini\.gradle\caches\transforms-2\files-2.1\295746407fe296f5c0780a7226717709\jetified-facebook-core-4.42.0\AndroidManifest.xml:48:25-92
+54            </intent-filter>
+55        </receiver>
+56    </application>
+57
+58</manifest>
